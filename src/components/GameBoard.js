@@ -16,19 +16,25 @@ const GameBoard = (props) =>{
     const [cakes, setCakes] = useState(() => shuffleCakes(cakeList));
 
     const handleClick = (e) => {
-        props.setScore( prev => prev + 1)
-        setCakes(shuffleCakes(cakes))
+        if (e.clicked === false){
+            props.setScore( prev => prev + 1)
+            e.clicked = true
+        }
+        else{
+            cakes.map(cake => cake.clicked = false)
+            props.setScore(0)
+        }
     };
 
     useEffect(() => {
         setCakes(shuffleCakes(cakes))
     }, [props.score]);
 
-    const listy = cakes.map(cake => {return  <CakeCard click={() => handleClick(cake)} cake={cake} key={cake.id}/>})
+    const boardList = cakes.map(cake => {return  <CakeCard click={() => handleClick(cake)} cake={cake} key={cake.id}/>})
 
     return (
-        <div>
-            {listy}
+        <div className="game-container">
+            {boardList}
         </div>
     );
 };

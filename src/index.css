@@ -2,3 +2,28 @@ img{
     height: 200px;
     width: 200px;
 }
+
+body{
+    background-color:#e5e4e2;
+}
+
+.card-container{
+    font-size: 20px;
+    margin: 1em;
+    text-align: center;
+    background-color: #f2f3f4;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.score-container{
+    text-align: center;
+    font-size: 32px;
+}
