@@ -1,6 +1,8 @@
 img{
     height: 200px;
     width: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 body{
@@ -12,7 +14,10 @@ body{
     margin: 1em;
     text-align: center;
     background-color: #f2f3f4;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 15px;
 }
+
 
 .game-container{
     display: flex;
@@ -24,6 +29,11 @@ body{
 }
 
 .score-container{
+    min-width: fit-content;
+    max-width: 25%;
+    margin: auto;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
+    background-color: whitesmoke;
+    font-family: 'Courier Prime', monospace;
 }
