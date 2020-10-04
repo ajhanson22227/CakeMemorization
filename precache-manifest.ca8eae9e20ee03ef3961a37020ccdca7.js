@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "893cb81cfc8d682196f451938f21effd",
+    "revision": "7042cdb33d2fed0e31e2f6e0965ded2d",
     "url": "/CakeMemorization/index.html"
   },
   {
