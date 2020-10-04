@@ -1,8 +1,15 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
+import GameBoard from './components/GameBoard'
+
 
 const App = () => {
+    const [score, setScore] = useState(0);
+    const [bestScore, setBestScore] = useState(0);
+
     return (
-            <div>Hello WOrld</div>
+            <div>
+                <GameBoard setScore={setScore} score={score}/>
+            </div>
         )
 }
 
