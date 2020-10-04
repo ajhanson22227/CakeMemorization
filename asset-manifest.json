@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CakeMemorization/static/css/main.ed38dd3c.chunk.css",
+    "main.js": "/CakeMemorization/static/js/main.e3b3df23.chunk.js",
+    "main.js.map": "/CakeMemorization/static/js/main.e3b3df23.chunk.js.map",
+    "runtime-main.js": "/CakeMemorization/static/js/runtime-main.bd7fbddb.js",
+    "runtime-main.js.map": "/CakeMemorization/static/js/runtime-main.bd7fbddb.js.map",
+    "static/js/2.ca789f28.chunk.js": "/CakeMemorization/static/js/2.ca789f28.chunk.js",
+    "static/js/2.ca789f28.chunk.js.map": "/CakeMemorization/static/js/2.ca789f28.chunk.js.map",
+    "index.html": "/CakeMemorization/index.html",
+    "precache-manifest.ce3ab989532d6b92b8775eecdc20646e.js": "/CakeMemorization/precache-manifest.ce3ab989532d6b92b8775eecdc20646e.js",
+    "service-worker.js": "/CakeMemorization/service-worker.js",
+    "static/css/main.ed38dd3c.chunk.css.map": "/CakeMemorization/static/css/main.ed38dd3c.chunk.css.map",
+    "static/js/2.ca789f28.chunk.js.LICENSE.txt": "/CakeMemorization/static/js/2.ca789f28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd7fbddb.js",
+    "static/js/2.ca789f28.chunk.js",
+    "static/css/main.ed38dd3c.chunk.css",
+    "static/js/main.e3b3df23.chunk.js"
+  ]
+}
